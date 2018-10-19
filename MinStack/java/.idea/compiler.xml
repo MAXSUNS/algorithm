@@ -10,9 +10,8 @@
         <module name="二元查找树转变成排序的双向链表" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="algorithm" target="1.5" />
-      <module name="二元查找树转变成排序的双向链表" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

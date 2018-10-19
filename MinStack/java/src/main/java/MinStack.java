@@ -1,13 +1,4 @@
-class Elem{
-    public int value;
-    public int min;
-    public Elem next;
-
-    public Elem(int value, int min){
-        this.value = value;
-        this.min = min;
-    }
-}
+import static java.lang.Math.*;
 
 public class MinStack {
     public Elem top;
@@ -21,7 +12,7 @@ public class MinStack {
         if(top == null){
             top = new Elem(x, x);
         }else{
-            Elem e = new Elem(x, Math.min(x,top.min));
+            Elem e = new Elem(x, min(x,top.min));
             e.next = top;
             top = e;
         }

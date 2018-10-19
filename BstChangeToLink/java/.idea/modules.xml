@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/二元查找树转变成排序的双向链表.iml" filepath="$PROJECT_DIR$/二元查找树转变成排序的双向链表.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm.iml" filepath="$PROJECT_DIR$/algorithm.iml" />
+      <module fileurl="file://D:\code\algorithm\BstChangeToLink\java\二元查找树转变成排序的双向链表.iml" filepath="D:\code\algorithm\BstChangeToLink\java\二元查找树转变成排序的双向链表.iml" />
     </modules>
   </component>
 </project>
